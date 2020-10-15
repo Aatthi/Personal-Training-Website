@@ -94,6 +94,7 @@ html {
 	transition: all 0.25s ease-in-out;
 	font-size: 25px;
 	margin: 50px 0;
+	width: auto;
 }
 
 .contact-me:hover {
