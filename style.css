@@ -83,7 +83,7 @@ html {
 	opacity: 0.5;
 }
 
-.contact-me {
+.con-button {
 	color: black;
 	padding: 20px 30px;
 	border: 2px solid black;
@@ -94,10 +94,9 @@ html {
 	transition: all 0.25s ease-in-out;
 	font-size: 25px;
 	margin: 50px 0;
-	width: auto;
 }
 
-.contact-me:hover {
+.con-button:hover {
 	background: black;
 	color: white;
 }
@@ -147,12 +146,18 @@ html {
 }
 
 .session-container {
-	margin: 100px 0;
+	margin: 100px 0 200px 0;
 }
 
 .session-wrapper {
 	width: 80%;
 	margin: 0 auto;
+}
+
+.My-Sessions {
+	display: flex;
+	justify-content: center;
+	margin: 50px 0;
 }
 
 .sessions {
@@ -215,6 +220,7 @@ html {
 	width: 100%;
 	margin: 0 auto;
 	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
 }
 
 input {
@@ -267,4 +273,13 @@ form button:hover {
 	color: white;
 
 	cursor: pointer;
+}
+
+.copyRight {
+	display: flex;
+	justify-content: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+	font-size: 15px;
+	margin: 100px 0 30px 0;
 }
