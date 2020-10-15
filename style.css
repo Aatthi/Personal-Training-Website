@@ -108,7 +108,7 @@ html {
 	width: 70%;
 	margin: 0 auto;
 	height: auto;
-	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3), 0 2px 10px rgba(0, 0, 0, 0.1) inset;
+	/* box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3), 0 2px 10px rgba(0, 0, 0, 0.1) inset; */
 	padding: 50px 50px;
 }
 
@@ -116,11 +116,42 @@ html {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
-	grid-gap: 0.5em;
+	grid-gap: 0.2em;
 	align-items: stretch;
+	opacity: 0.8;
 }
 
 .special {
 	grid-row: 1 / span 3;
 	grid-column: 2 / span 3;
+}
+
+.session-container {
+	margin: 100px 0;
+}
+
+.session-wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.sessions {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.session {
+	width: 300px;
+	height: 600px;
+	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3), 0 2px 10px rgba(0, 0, 0, 0.1) inset;
+	padding: 20px 10px;
+	margin: 0 60px;
+	text-align: center;
+}
+
+.session h2 {
+	margin: 20px 0 30px 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
 }
