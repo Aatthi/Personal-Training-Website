@@ -285,11 +285,11 @@ form button:hover {
 }
 
 .copyRight a {
-	color: white;
+	color: black;
 	text-decoration: none;
 }
 
 .copyRight a:visited {
-	color: white;
+	color: black;
 	text-decoration: none;
 }
