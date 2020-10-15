@@ -283,3 +283,13 @@ form button:hover {
 	font-size: 15px;
 	margin: 100px 0 30px 0;
 }
+
+.copyRight a {
+	color: white;
+	text-decoration: none;
+}
+
+.copyRight a:visited {
+	color: white;
+	text-decoration: none;
+}
