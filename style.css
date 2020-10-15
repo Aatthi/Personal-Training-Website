@@ -88,7 +88,17 @@ html {
 	padding: 20px 30px;
 	border: 2px solid black;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 200;
+	font-weight: 400;
+	background: transparent;
+	cursor: pointer;
+	transition: all 0.25s ease-in-out;
+	font-size: 25px;
+	margin: 50px 0;
+}
+
+.contact-me:hover {
+	background: black;
+	color: white;
 }
 
 .about-me-wrapper {
