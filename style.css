@@ -81,6 +81,7 @@ html {
 
 .header-wrapper a:hover {
 	opacity: 0.5;
+	color: white;
 }
 
 .con-button {
@@ -293,4 +294,12 @@ form button:hover {
 .copyRight a:visited {
 	color: black;
 	text-decoration: none;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	color: white;
 }
