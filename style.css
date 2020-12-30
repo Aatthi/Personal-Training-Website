@@ -354,11 +354,11 @@ a:hover {
 
 @media (max-width: 468px) {
 	.header-text {
-		padding: 10px 0˜˜˜;
+		padding: 10px 0;
 	}
 
-	.profile-photo {
-		width: 150px;
-		height: 150px;
+	.profile-photo img {
+		width: 200px;
+		height: 200px;
 	}
 }
